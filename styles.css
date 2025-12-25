@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background: #EBEBEB;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-character {
+    position: fixed;
+    font-size: 300px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.03);
+    pointer-events: none;
+    z-index: 0;
+    user-select: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.bg-character-left {
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bg-character-right {
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.glass-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 22px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(235, 235, 235, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.55);
+
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 87.081%; /* 12.191px */
+letter-spacing: -0.98px;
+
+  transition: all 0.25s ease;
+}
+
+.dot-card {
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+  
+    display: flex;
+  
+    /* optional soft shadow like in screenshot */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    background: #ff2d2d;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  
+    /* this creates the blurred glow shadow */
+    box-shadow: 0 10px 20px rgba(255, 45, 45, 0.35);
+  }
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 20px;
+}
+
+.title-line {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.title-light {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 48px;
+    line-height: 87.081%;
+    /* letter-spacing: -1px; */
+    letter-spacing: -3.04px;
+    
+}
+
+.title-bold {
+    font-weight: 700;
+    color: #1a1a1a;
+    font-size: 48px;
+    letter-spacing: -2.04px;
+    line-height: 104.081%;
+}
+
+.title-dot {
+    width: 12px;
+    height: 12px;
+    background: #ff2d2d;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.imageadded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: -10px;
+    position: relative;
+}
+
+.imageadded img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+/* Desktop view */
+@media (min-width: 1024px) {
+    .imageadded {
+        margin-left: 180px;
+    }
+}
+  
+
+@media (min-width: 1024px) {
+    .firstfold {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+.buttons-container {
+    display: flex;
+    gap: 16px;
+    margin-top: -80px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+@media (min-width: 1024px) {
+    .buttons-container {
+        margin-top: -200px;
+    }
+}
+
+.glass-btn-red,
+.glass-btn-white {
+    padding: 14px 32px;
+    border-radius: 9999px;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.glass-btn-red {
+    background: #ff2d2d;
+    color: white;
+    box-shadow:
+        0 10px 25px rgba(255, 45, 45, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.glass-btn-red:hover {
+    box-shadow:
+        0 12px 30px rgba(255, 45, 45, 0.45),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.glass-btn-white {
+    background: white;
+    color: #111;
+}
+
+.glass-btn-white:hover {
+    transform: translateY(-2px);
+}
+
+/* Responsive background characters */
+@media (max-width: 768px) {
+    .bg-character {
+        font-size: 200px;
+    }
+    
+    .bg-character-left {
+        left: -5%;
+    }
+    
+    .bg-character-right {
+        right: -5%;
+    }
+}
+  
