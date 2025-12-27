@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic SEO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Groww UX Notes (Raw PDF) | Made by Abhishek</title>
+  <meta name="description" content="Read my raw PDF notes on Groww UX — SIP flow breakdown, empathy path, trust markers, progressive disclosure, and UX principles." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://madebyabhishek.com/blog/groww-ux-notes-pdf" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Groww UX Notes (Raw PDF)" />
+  <meta property="og:description" content="Raw PDF notes: Groww UX teardown for SIP flow — empathy path, trust design, and UX principles." />
+  <meta property="og:url" content="https://madebyabhishek.com/blog/groww-ux-notes-pdf" />
+  <meta property="og:site_name" content="Made by Abhishek" />
+  <meta property="og:image" content="https://madebyabhishek.com/assets/blog/groww-ux-notes-cover.png" />
+  <meta property="og:image:alt" content="Groww UX Notes PDF cover" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Groww UX Notes (Raw PDF)" />
+  <meta name="twitter:description" content="Raw PDF notes: Groww UX teardown for SIP flow — empathy, trust, and UX principles." />
+  <meta name="twitter:image" content="https://madebyabhishek.com/assets/blog/groww-ux-notes-cover.png" />
+
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --bg: #efefef;
+      --bg-2: #f6f6f6;
+      --card: rgba(255,255,255,0.7);
+      --text: #0a0a0a;
+      --muted: rgba(0,0,0,0.62);
+      --soft: rgba(0,0,0,0.08);
+      --soft-2: rgba(0,0,0,0.06);
+      --accent: #ff2d2d;
+      --radius: 22px;
+      --max: 1100px;
+      --shadow: 0 18px 50px rgba(0,0,0,0.10);
+      --shadow-soft: 0 10px 25px rgba(0,0,0,0.08);
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+
+    *{ box-sizing: border-box; }
+    body{
+      margin:0;
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a{ color: inherit; text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+
+    .container{
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(18px, 3vw, 34px);
+    }
+
+    /* Topbar */
+    .topbar{
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+      gap: 16px;
+      padding: 18px 0 10px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .brand .dot{
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 8px 25px rgba(255,45,45,0.35);
+    }
+
+    .nav{
+      display:flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content:flex-end;
+    }
+
+    .nav a{
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      color: rgba(0,0,0,0.68);
+      font-size: 14px;
+      transition: 160ms ease;
+    }
+
+    .nav a:hover{
+      border-color: var(--soft);
+      background: rgba(255,255,255,0.55);
+      text-decoration: none;
+    }
+
+    /* Hero */
+    .hero{
+      margin-top: 14px;
+      padding: clamp(18px, 4vw, 34px);
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.40));
+      border: 1px solid var(--soft);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:-20px;
+      background:
+        radial-gradient(900px 500px at 10% 15%, rgba(255,45,45,0.10), transparent 55%),
+        radial-gradient(600px 450px at 90% 0%, rgba(0,0,0,0.06), transparent 58%);
+      pointer-events:none;
+    }
+
+    .hero-content{ position:relative; z-index:1; }
+
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.75);
+      border: 1px solid var(--soft);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+      font-size: 14px;
+      color: rgba(0,0,0,0.70);
+    }
+    .badge .live-dot{
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+
+    h1{
+      margin: 18px 0 10px;
+      font-size: clamp(36px, 4.5vw, 62px);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    .title-light{
+      font-weight: 500;
+      color: rgba(0,0,0,0.40);
+    }
+
+    .title-bold{
+      font-weight: 800;
+      color: rgba(0,0,0,0.92);
+    }
+
+    .title-dot{
+      color: var(--accent);
+      font-weight: 900;
+    }
+
+    .subtitle{
+      margin: 10px 0 0;
+      color: rgba(0,0,0,0.62);
+      font-size: clamp(15px, 2vw, 18px);
+      max-width: 75ch;
+    }
+
+    .meta{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .chip{
+      padding: 9px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--soft);
+      background: rgba(255,255,255,0.65);
+      color: rgba(0,0,0,0.68);
+      font-size: 13px;
+    }
+
+    /* CTA */
+    .cta-row{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+      align-items:center;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-weight: 700;
+      font-size: 14px;
+      transition: 170ms ease;
+      cursor:pointer;
+      user-select:none;
+    }
+
+    .btn-primary{
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 14px 35px rgba(255,45,45,0.25);
+    }
+    .btn-primary:hover{
+      transform: translateY(-1px);
+      filter: brightness(0.98);
+      text-decoration:none;
+    }
+
+    .btn-ghost{
+      background: rgba(255,255,255,0.70);
+      border: 1px solid var(--soft);
+      color: rgba(0,0,0,0.80);
+    }
+    .btn-ghost:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,0.85);
+      text-decoration:none;
+    }
+
+    /* Main article card */
+    main{
+      margin-top: 22px;
+      display:grid;
+      gap: 20px;
+    }
+    article{
+      border-radius: var(--radius);
+      background: rgba(255,255,255,0.62);
+      border: 1px solid var(--soft);
+      box-shadow: var(--shadow-soft);
+      padding: clamp(18px, 3vw, 28px);
+    }
+
+    h2{
+      margin: 22px 0 10px;
+      font-size: clamp(20px, 2.2vw, 28px);
+      letter-spacing: -0.02em;
+    }
+
+    p{
+      margin: 10px 0;
+      color: rgba(0,0,0,0.75);
+      font-size: 16px;
+    }
+
+    .callout{
+      margin: 16px 0;
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid rgba(255,45,45,0.16);
+      background: rgba(255,45,45,0.06);
+      color: rgba(0,0,0,0.78);
+    }
+    .callout strong{
+      color: rgba(0,0,0,0.88);
+    }
+
+    /* PDF Viewer */
+    .pdf-wrap{
+      margin-top: 16px;
+      padding: 16px;
+      border-radius: 20px;
+      border: 1px solid var(--soft);
+      background: rgba(255,255,255,0.72);
+      box-shadow: 0 14px 40px rgba(0,0,0,0.08);
+    }
+
+    .pdf-frame{
+      width: 100%;
+      aspect-ratio: 16 / 10; /* stable + same-to-same */
+      border-radius: 18px;
+      overflow:hidden;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: rgba(0,0,0,0.04);
+      margin-top: 12px;
+    }
+
+    .pdf-frame iframe{
+      width:100%;
+      height:100%;
+      border:0;
+      display:block;
+    }
+
+    .actions{
+      margin-top: 12px;
+      display:flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .divider{
+      border: none;
+      border-top: 1px dashed rgba(0,0,0,0.12);
+      margin: 28px 0;
+    }
+
+    .footer{
+      margin: 26px 0 12px;
+      text-align:center;
+      color: rgba(0,0,0,0.55);
+      font-size: 14px;
+    }
+  </style>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Groww UX Notes (Raw PDF)",
+    "description": "Read my raw PDF notes on Groww UX — SIP flow breakdown, empathy path, trust markers, progressive disclosure, and UX principles.",
+    "author": {
+      "@type": "Person",
+      "name": "Abhishek"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Made by Abhishek",
+      "url": "https://madebyabhishek.com/"
+    },
+    "mainEntityOfPage": "https://madebyabhishek.com/blog/groww-ux-notes-pdf",
+    "image": "https://madebyabhishek.com/assets/blog/groww-ux-notes-cover.png",
+    "datePublished": "2025-12-28",
+    "dateModified": "2025-12-28"
+  }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <a class="brand" href="https://madebyabhishek.com/">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Made by Abhishek</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary Navigation">
+        <a href="https://madebyabhishek.com/">Home</a>
+        <a href="https://madebyabhishek.com/blog">Read Blogs</a>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="badge">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span>Groww UX Notes · Raw PDF</span>
+        </div>
+
+        <h1>
+          <span class="title-light">I studied</span>
+          <span class="title-bold">Groww UX</span>
+          <span class="title-bold">deeply</span><span class="title-dot">.</span>
+        </h1>
+
+        <p class="subtitle">
+          Here’s the exact raw PDF I created while studying Groww’s UX — especially the SIP (Mutual Fund) flow.
+          Read it here or download it in one click.
+        </p>
+
+        <div class="meta">
+          <span class="chip">By Abhishek</span>
+          <span class="chip">Format: PDF Viewer</span>
+          <span class="chip">Topic: UX + Empathy Path</span>
+          <span class="chip">Updated: <span id="date"></span></span>
+        </div>
+
+        <div class="cta-row">
+          <!-- Replace PDF_URL with your hosted PDF link -->
+          <a class="btn btn-primary" href="/assets/pdfs/groww-ux-notes.pdf" download>
+            ⬇️ Download PDF
+          </a>
+          <a class="btn btn-ghost" href="/assets/pdfs/groww-ux-notes.pdf" target="_blank" rel="noopener">
+            🔗 Open PDF
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <div class="callout">
+          <strong>Why this PDF is worth reading:</strong><br/>
+          Groww feels “simple”, but the interface is doing emotional work — reducing fear, increasing trust,
+          and guiding users through high-stakes decisions (money).
+        </div>
+
+        <!-- PDF Embed -->
+        <section class="pdf-wrap" aria-label="PDF Viewer">
+          <h2>Read the raw PDF</h2>
+          <p>
+            If the PDF doesn’t load in your browser, use the download button above.
+          </p>
+
+          <div class="pdf-frame">
+            <iframe
+              src="/assets/pdfs/groww-ux-notes.pdf"
+              title="Groww UX Notes PDF"
+              loading="lazy"
+            ></iframe>
+          </div>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="/assets/pdfs/groww-ux-notes.pdf" download>⬇️ Download PDF</a>
+            <a class="btn btn-ghost" href="/assets/pdfs/groww-ux-notes.pdf" target="_blank" rel="noopener">🔗 Open in New Tab</a>
+          </div>
+        </section>
+
+        <hr class="divider"/>
+
+        <!-- SEO Text -->
+        <section aria-label="SEO Summary">
+          <h2>What’s inside?</h2>
+          <p>
+            This PDF contains my detailed notes studying Groww’s UX flow design — with a focus on SIP setup for mutual funds.
+            The notes highlight empathy mapping, trust markers, progressive disclosure, and how the UI reduces anxiety for
+            first-time investors.
+          </p>
+
+          <h2>Why SIP flow is the best UX teacher</h2>
+          <p>
+            SIP setup is a high-impact flow because the user is making a repeating commitment with money. A good UX flow here
+            must make the user feel safe, confident, and in control.
+          </p>
+
+          <h2>Key patterns explored</h2>
+          <p>
+            The PDF covers information chunking, calm hierarchy, review-before-commit, simple microcopy, and clear exit options
+            like pause/modify/cancel — which directly reduce regret risk.
+          </p>
+        </section>
+      </article>
+
+      <p class="footer">
+        © <span id="year"></span> Made by Abhishek
+      </p>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const d = new Date();
+    document.getElementById("date").textContent =
+      d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  </script>
+</body>
+</html>
