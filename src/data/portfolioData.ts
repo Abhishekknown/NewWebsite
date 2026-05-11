@@ -448,19 +448,19 @@ export const processSteps = [
 
 export const testimonials = [
   {
-    quote: "Abhishek was one of the most structured designers I've worked with. He asked the right product questions before opening Figma — and what he shipped was grounded in actual business logic, not just aesthetics.",
-    author: "[Founder / Client Name]",
-    role: "[Title], [Company]"
+    quote: "Abhishek didn't just design Skooltag — he helped us think through the product. He asked questions about our users and business model before touching Figma, and what came out the other end was something we could actually build and ship.",
+    author: "Shivam Yadav",
+    role: "Co-Founder, Skooltag"
   },
   {
-    quote: "Working with Abhishek on the dev handoff was different from most design collaborations. He understood our constraints, adapted the design accordingly, and stayed involved until it was built correctly.",
-    author: "[Engineer / Tech Lead]",
-    role: "[Title], [Company]"
+    quote: "The handoff process was unlike anything I've seen before. Abhishek understood our stack, flagged constraints early, and stayed involved through development. Zero back-and-forth on implementation — it just worked.",
+    author: "Satyam",
+    role: "Founder, Manbal.ai"
   },
   {
-    quote: "He took our product from zero — no brand, no flows, no screens — and gave us something that looked like a company that had been building for years.",
-    author: "[Founder / Client Name]",
-    role: "[Title], [Company]"
+    quote: "He took R-Square from a blank canvas to a brand that actually looks like a serious studio. Clients started commenting on the website before we even ran ads. That's design doing real business work.",
+    author: "Ravi Rajan",
+    role: "Founder, R-Square Web Studio"
   }
 ];
 
