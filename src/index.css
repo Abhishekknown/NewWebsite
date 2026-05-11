@@ -23,8 +23,14 @@
 }
 
 @layer base {
+  html {
+    font-size: 18px;
+  }
+
   body {
     @apply bg-bg text-text-primary font-body antialiased selection:bg-accent selection:text-bg;
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
   h1, h2, h3, h4 {
@@ -34,15 +40,15 @@
 
 @layer utilities {
   .text-hero {
-    font-size: clamp(2.8rem, 6vw, 5.5rem);
+    font-size: clamp(3rem, 6vw, 5.5rem);
     line-height: 1.1;
   }
   .text-h2 {
-    font-size: clamp(1.8rem, 3.5vw, 3rem);
+    font-size: clamp(2rem, 3.5vw, 3rem);
     line-height: 1.2;
   }
   .text-h3 {
-    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
     line-height: 1.3;
   }
   .space-section {
