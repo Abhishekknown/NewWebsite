@@ -57,9 +57,17 @@ export default function Home() {
               >
                 <div className="flex flex-col md:flex-row gap-10">
                   <div className="w-full md:w-[45%] aspect-[4/3] bg-surface-2 overflow-hidden relative border border-border/50">
-                    <div className="absolute inset-0 flex items-center justify-center text-text-faint text-sm">
-                      {project.title} Preview
-                    </div>
+                    {project.preview ? (
+                      <img
+                        src={project.preview}
+                        alt={project.title}
+                        className="absolute inset-0 w-full h-full object-cover object-top"
+                      />
+                    ) : (
+                      <div className="absolute inset-0 flex items-center justify-center text-text-faint text-sm">
+                        {project.title} Preview
+                      </div>
+                    )}
                     <div className="absolute bottom-4 left-4 text-accent text-[0.7rem] font-bold">{project.liveLabel}</div>
                   </div>
                   <div className="w-full md:w-[55%] flex flex-col">

@@ -9,6 +9,7 @@ export interface Project {
   outcome: string;
   liveUrl: string;
   liveLabel: string;
+  preview?: string;
   client: string;
   role: string;
   platform: string;
@@ -61,6 +62,7 @@ export const projects: Project[] = [
     outcome: "→ Live and in use across Delhi schools",
     liveUrl: "https://skooltag.com",
     liveLabel: "skooltag.com",
+    preview: "/images/skooltag-home-screen.png",
     client: "Student Junction / Skooltag",
     role: "Sole Designer - Brand Identity, UX, UI, Marketing Assets",
     platform: "Mobile-first web + app",

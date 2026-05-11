@@ -311,11 +311,16 @@ export default function SkooltagCaseStudy() {
               confirmation step, not a discovery step.
             </Why>
 
-            <ImgSlot
-              imageRef="Image 3 - Onboarding Flow"
-              caption="Four inputs. The same four things a parent tells the shopkeeper."
-              aspect="aspect-[16/7]"
-            />
+            <figure className="my-12">
+              <img
+                src="/images/skooltag-onboarding.png"
+                alt="SkoolTag onboarding flow - school selection grid and child profile form"
+                className="w-full border border-border object-cover"
+              />
+              <figcaption className="text-text-faint text-[0.72rem] italic text-center mt-3">
+                Four inputs. The same four things a parent tells the shopkeeper.
+              </figcaption>
+            </figure>
           </Reveal>
         </section>
 
@@ -353,11 +358,16 @@ export default function SkooltagCaseStudy() {
               makes the app feel made for them.
             </Why>
 
-            <ImgSlot
-              imageRef="Image 6 - The Buying For Switcher"
-              caption="Always visible. One tap. The entire experience reconfigures."
-              aspect="aspect-[16/7]"
-            />
+            <figure className="my-12">
+              <img
+                src="/images/skooltag-buying-for-switcher.png"
+                alt="SkoolTag Buying For switcher - persistent chip that reconfigures the entire experience"
+                className="w-full border border-border object-cover"
+              />
+              <figcaption className="text-text-faint text-[0.72rem] italic text-center mt-3">
+                Always visible. One tap. The entire experience reconfigures.
+              </figcaption>
+            </figure>
           </Reveal>
         </section>
 
