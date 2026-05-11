@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="space-y-4">
           <div className="text-accent font-bold tracking-widest text-xl">AM</div>
           <div className="text-text-primary font-medium">Product Designer & Design-led PM</div>
-          <div className="text-text-muted text-sm">Based in Bihar · Remote-ready</div>
+          <div className="text-text-muted text-sm">Mumbai-based designer · Remote-ready</div>
         </div>
 
         {/* Column 2 */}
