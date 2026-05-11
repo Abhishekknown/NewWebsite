@@ -5,6 +5,7 @@ import ProgressBar from './components/ProgressBar';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import CaseStudy from './pages/CaseStudy';
+import SkooltagCaseStudy from './pages/SkooltagCaseStudy';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <main id="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/work/skooltag" element={<SkooltagCaseStudy />} />
           <Route path="/work/:id" element={<CaseStudy />} />
         </Routes>
       </main>
