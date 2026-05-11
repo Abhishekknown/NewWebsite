@@ -167,7 +167,12 @@ export default function Home() {
                   </p>
                   <div className="pt-6 border-t border-border">
                     <div className="flex items-center gap-4">
-                      <div className="w-9 h-9 bg-surface-2" />
+                      <img
+                        src={t.logo}
+                        alt={t.logoAlt}
+                        className="w-9 h-9 object-contain rounded"
+                        onError={(e: React.SyntheticEvent<HTMLImageElement>) => { e.currentTarget.style.display = 'none'; }}
+                      />
                       <div>
                         <div className="text-text-primary text-[0.9rem] font-semibold">{t.author}</div>
                         <div className="text-text-muted text-[0.8rem]">{t.role}</div>

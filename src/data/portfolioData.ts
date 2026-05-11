@@ -450,17 +450,23 @@ export const testimonials = [
   {
     quote: "Abhishek didn't just design Skooltag — he helped us think through the product. He asked questions about our users and business model before touching Figma, and what came out the other end was something we could actually build and ship.",
     author: "Shivam Yadav",
-    role: "Co-Founder, Skooltag"
+    role: "Co-Founder, Skooltag",
+    logo: "https://www.skooltag.com/images/skooltag-logo.png",
+    logoAlt: "Skooltag"
   },
   {
     quote: "The handoff process was unlike anything I've seen before. Abhishek understood our stack, flagged constraints early, and stayed involved through development. Zero back-and-forth on implementation — it just worked.",
     author: "Satyam",
-    role: "Founder, Manbal.ai"
+    role: "Founder, Manbal.ai",
+    logo: "https://manbal.ai/logo.svg",
+    logoAlt: "Manbal.ai"
   },
   {
     quote: "He took R-Square from a blank canvas to a brand that actually looks like a serious studio. Clients started commenting on the website before we even ran ads. That's design doing real business work.",
     author: "Ravi Rajan",
-    role: "Founder, R-Square Web Studio"
+    role: "Founder, R-Square Web Studio",
+    logo: "https://rsquarewebstudio.com/favicon.png",
+    logoAlt: "R-Square Web Studio"
   }
 ];
 
