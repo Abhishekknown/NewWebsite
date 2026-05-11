@@ -33,7 +33,7 @@ export default function Home() {
             ))}
           </div>
           <p className="text-text-muted text-center text-[0.9rem] italic mt-8">
-            "From discovery workshops to dev handoff — across two countries, three live products, and four years of iteration."
+            "From discovery workshops to dev handoff - across two countries, three live products, and four years of iteration."
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function Home() {
           <span className="text-accent text-[0.75rem] font-bold uppercase tracking-[0.15em]">HOW A PROJECT WORKS</span>
           <h2 className="text-h2 text-text-primary mt-4">No surprises. No revision spirals.</h2>
           <p className="text-text-muted text-body-lg max-w-[500px] mt-4">
-            Here's how I run engagements — from first call to shipped product.
+            Here's how I run engagements - from first call to shipped product.
           </p>
         </Reveal>
 
@@ -195,19 +195,19 @@ export default function Home() {
               <h2 className="text-h2 text-text-primary mt-4 mb-8">The slightly longer version.</h2>
               <div className="space-y-6 text-text-muted leading-relaxed">
                 <p>
-                  I'm Abhishek — a product designer turned design-led product manager, based in Bihar and working remotely with clients across India and Canada.
+                  I'm Abhishek - a product designer turned design-led product manager, based in Bihar and working remotely with clients across India and Canada.
                 </p>
                 <p>
-                  I started designing products at 21, working directly inside early-stage startups and a design agency. Over four years I shipped three live products — a D2C e-commerce platform used by Delhi schools, a B2B web platform for a Vancouver contracting firm, and a 0→1 campus networking app for an AI startup.
+                  I started designing products at 21, working directly inside early-stage startups and a design agency. Over four years I shipped three live products - a D2C e-commerce platform used by Delhi schools, a B2B web platform for a Vancouver contracting firm, and a 0→1 campus networking app for an AI startup.
                 </p>
                 <p>
                   Every one of those shipped with real engineering constraints, real client stakeholders, and real budgets. I learned to make design decisions I could defend in a room with a founder, then hand off to a developer who had three days to build it.
                 </p>
                 <p>
-                  My CS engineering background (BE, University of Mumbai, 2024) means I can read code, understand technical trade-offs, and have informed conversations with engineers — not just hand over a Figma file and hope.
+                  My CS engineering background (BE, University of Mumbai, 2024) means I can read code, understand technical trade-offs, and have informed conversations with engineers - not just hand over a Figma file and hope.
                 </p>
                 <p>
-                  Right now I'm at the intersection of UX design and product management — doing the work that falls between "designer" and "PM": defining product scope, running stakeholder alignment, designing what matters, and making sure it ships the right way.
+                  Right now I'm at the intersection of UX design and product management - doing the work that falls between "designer" and "PM": defining product scope, running stakeholder alignment, designing what matters, and making sure it ships the right way.
                 </p>
                 <p className="font-bold text-text-primary">
                   I work best with:
@@ -282,7 +282,7 @@ export default function Home() {
           <span className="text-accent text-[0.75rem] font-bold uppercase tracking-[0.15em]">LET'S WORK TOGETHER</span>
           <h2 className="text-h2 text-text-primary mt-6 max-w-[600px] mx-auto">Got a product flow that isn't performing?</h2>
           <p className="text-text-muted text-body-lg max-w-[500px] mx-auto mt-6 leading-relaxed">
-            Whether it's a leaky onboarding, a confusing dashboard, or a product that needs to be built from scratch — let's spend 30 minutes looking at it together.
+            Whether it's a leaky onboarding, a confusing dashboard, or a product that needs to be built from scratch - let's spend 30 minutes looking at it together.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-12">
             <a

@@ -66,7 +66,7 @@ export default function CaseStudy() {
           </div>
 
           <div className="mt-12 aspect-video bg-surface-2 border border-border flex items-center justify-center text-text-faint">
-            {project.title} — Product Preview
+            {project.title} - Product Preview
           </div>
         </div>
       </section>
@@ -149,7 +149,7 @@ export default function CaseStudy() {
             <span className="text-accent text-[0.7rem] uppercase tracking-[0.15em] block mb-2">MY ROLE</span>
             <h2 className="text-[1.8rem] text-text-primary mb-6">What I owned. All of it.</h2>
             <p className="text-text-muted mb-8">
-              Sole designer across the entire product surface. This meant no design handoffs between team members — every decision started and ended with me.
+              Sole designer across the entire product surface. This meant no design handoffs between team members - every decision started and ended with me.
             </p>
             <div className="space-y-4">
               {project.myRole.map((role, i) => (
@@ -320,7 +320,7 @@ export default function CaseStudy() {
               <div className="flex justify-center gap-4 mt-4">
                 {projects.filter(p => p.id !== project.id).map(p => (
                   <Link key={p.id} to={`/work/${p.id}`} className="text-accent hover:underline">
-                    [{p.title.split('—')[0].trim()}]
+                    [{p.title.split('-')[0].trim()}]
                   </Link>
                 ))}
               </div>

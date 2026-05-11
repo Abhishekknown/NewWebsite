@@ -115,8 +115,8 @@ export default function SkooltagCaseStudy() {
           </div>
 
           <ImgSlot
-            imageRef="Image 2 — Hero / Home Screen"
-            caption="Home screen — bold tile variant. The parent's package, pre-built, waiting."
+            imageRef="Image 2 - Hero / Home Screen"
+            caption="Home screen - bold tile variant. The parent's package, pre-built, waiting."
             aspect="aspect-video"
           />
         </div>
@@ -142,7 +142,7 @@ export default function SkooltagCaseStudy() {
             <div className="text-text-muted leading-relaxed space-y-4 text-[0.95rem]">
               <p>
                 For 35 years the entire business ran offline. Parents would walk in at the start of every
-                academic session, tell the shopkeeper the school, class, and house color — and walk out 20
+                academic session, tell the shopkeeper the school, class, and house color - and walk out 20
                 minutes later with exactly the right package. No browsing. No confusion. No returns.
               </p>
               <p>
@@ -191,7 +191,7 @@ export default function SkooltagCaseStudy() {
         {/* ── 3. MY ROLE ────────────────────────────────────── */}
         <section id="role" className="mb-24">
           <Reveal>
-            <Label n="My Role">I led product design end to end — from concept to shipped product.</Label>
+            <Label n="My Role">I led product design end to end - from concept to shipped product.</Label>
             <p className="text-text-muted text-[0.95rem] leading-relaxed mb-8">
               That meant defining the user, mapping every flow, designing every screen and state,
               building the design system, briefing the graphic designer on brand assets, directing the
@@ -228,7 +228,7 @@ export default function SkooltagCaseStudy() {
             <div className="text-text-muted leading-relaxed space-y-4 text-[0.95rem]">
               <p>
                 One thing had to be settled before a single frame was drawn. A parent buying school uniforms
-                is not browsing for fun. They are completing a task — stressed about the school year
+                is not browsing for fun. They are completing a task - stressed about the school year
                 starting, worried about sizing, possibly buying for more than one child. They want it done
                 fast, done correctly, delivered.
               </p>
@@ -270,7 +270,7 @@ export default function SkooltagCaseStudy() {
 
         <hr className="border-t border-border my-16" />
 
-        {/* ── 5. DECISION 1 — ONBOARDING ────────────────────── */}
+        {/* ── 5. DECISION 1 - ONBOARDING ────────────────────── */}
         <section id="decision-1" className="mb-24">
           <Reveal>
             <Label n="Design Decision 01">The Shopkeeper Moment</Label>
@@ -287,7 +287,7 @@ export default function SkooltagCaseStudy() {
                 Parent opens the app. Verifies phone number. Gets asked one thing at a time.
               </p>
               <p>
-                Which school does your child go to? They pick from a visual grid of school crests —
+                Which school does your child go to? They pick from a visual grid of school crests -
                 immediately familiar, not a dropdown of text strings. Then: child name, class, gender,
                 house. Four inputs. The exact same four things a parent tells the shopkeeper.
               </p>
@@ -295,7 +295,7 @@ export default function SkooltagCaseStudy() {
 
             <Decision>
               All of that data flows into the system and pre-configures their package. When the parent
-              reaches the home screen, the package is already there — built for their child's school,
+              reaches the home screen, the package is already there - built for their child's school,
               class, house color. School-approved items. Correct uniform type. Right gender cut.
               They do not browse. They confirm. The app becomes the shopkeeper.
             </Decision>
@@ -307,7 +307,7 @@ export default function SkooltagCaseStudy() {
             </Why>
 
             <ImgSlot
-              imageRef="Image 3 — Onboarding Flow"
+              imageRef="Image 3 - Onboarding Flow"
               caption="Four inputs. The same four things a parent tells the shopkeeper."
               aspect="aspect-[16/7]"
             />
@@ -316,14 +316,14 @@ export default function SkooltagCaseStudy() {
 
         <hr className="border-t border-border my-16" />
 
-        {/* ── 6. DECISION 2 — MULTI-CHILD ───────────────────── */}
+        {/* ── 6. DECISION 2 - MULTI-CHILD ───────────────────── */}
         <section id="decision-2" className="mb-24">
           <Reveal>
             <Label n="Design Decision 02">Multi-Child, Zero Friction</Label>
 
             <Insight>
               A parent with two children in two different schools needs to switch contexts while
-              shopping — without losing their place, re-doing selections, or navigating to a
+              shopping - without losing their place, re-doing selections, or navigating to a
               settings menu.
             </Insight>
 
@@ -331,14 +331,14 @@ export default function SkooltagCaseStudy() {
               <p>
                 Most apps bury profile switching inside account settings. By the time a parent has
                 found the menu, switched the profile, and navigated back, they have lost the thread
-                entirely. Worse, they have been reminded that this is software — not a shopkeeper who
+                entirely. Worse, they have been reminded that this is software - not a shopkeeper who
                 just adapts.
               </p>
             </div>
 
             <Decision>
               Put the active child profile as a persistent chip at the very top of every screen. One tap
-              to switch. The entire experience — packages, recommended items, house color selections —
+              to switch. The entire experience - packages, recommended items, house color selections -
               reconfigures instantly. No navigation. No back button. No starting over.
             </Decision>
 
@@ -349,7 +349,7 @@ export default function SkooltagCaseStudy() {
             </Why>
 
             <ImgSlot
-              imageRef="Image 6 — The Buying For Switcher"
+              imageRef="Image 6 - The Buying For Switcher"
               caption="Always visible. One tap. The entire experience reconfigures."
               aspect="aspect-[16/7]"
             />
@@ -358,7 +358,7 @@ export default function SkooltagCaseStudy() {
 
         <hr className="border-t border-border my-16" />
 
-        {/* ── 7. DECISION 3 — SIZING ────────────────────────── */}
+        {/* ── 7. DECISION 3 - SIZING ────────────────────────── */}
         <section id="decision-3" className="mb-24">
           <Reveal>
             <Label n="Design Decision 03">Addressing the Real Reason Parents Don't Buy Uniforms Online</Label>
@@ -374,7 +374,7 @@ export default function SkooltagCaseStudy() {
                 A school uniform is not a t-shirt. It is tied to a school, a house color, a gender cut,
                 and a size system that varies across brands. Getting it wrong means a child goes to school
                 on Day 1 in the wrong clothes. I addressed this at three deliberate points in the
-                journey — not once, not as a disclaimer, but as a designed response to a real fear.
+                journey - not once, not as a disclaimer, but as a designed response to a real fear.
               </p>
             </div>
 
@@ -383,17 +383,17 @@ export default function SkooltagCaseStudy() {
                 {
                   n: '01',
                   title: 'The Size Chart',
-                  body: 'Every item in the package comes with a size selector, a size chart link, and an international conversion guide covering UK, US, EU, IT, and INTL — because parents in Delhi NCR do not all reference the same system.',
+                  body: 'Every item in the package comes with a size selector, a size chart link, and an international conversion guide covering UK, US, EU, IT, and INTL - because parents in Delhi NCR do not all reference the same system.',
                 },
                 {
                   n: '02',
                   title: 'The Important Item Flag',
-                  body: 'If a parent tries to remove a school-essential item, the app flags it without blocking them. This item matters — are you sure? The decision stays with the parent. The app ensures it is informed.',
+                  body: 'If a parent tries to remove a school-essential item, the app flags it without blocking them. This item matters - are you sure? The decision stays with the parent. The app ensures it is informed.',
                 },
                 {
                   n: '03',
                   title: 'The Final Checkpoint',
-                  body: 'Right before checkout — one deliberate pause. "Did you get everything right?" A short checklist. Every item accounted for. Every size confirmed. This is the app doing what a good shopkeeper does.',
+                  body: 'Right before checkout - one deliberate pause. "Did you get everything right?" A short checklist. Every item accounted for. Every size confirmed. This is the app doing what a good shopkeeper does.',
                 },
               ].map(({ n, title, body }) => (
                 <div key={n} className="flex gap-6 border border-border bg-surface p-6">
@@ -408,12 +408,12 @@ export default function SkooltagCaseStudy() {
 
             <Why>
               SkoolTag's offline business relied on the shopkeeper catching mistakes before the parent
-              left. This checkpoint is that moment — digitized. It reduces wrong-size orders,
+              left. This checkpoint is that moment - digitized. It reduces wrong-size orders,
               reduces returns, and builds confidence in the first-time buyer.
             </Why>
 
             <ImgSlot
-              imageRef="Image 4 — Package Builder + Size Selector + Confirmation Modal"
+              imageRef="Image 4 - Package Builder + Size Selector + Confirmation Modal"
               caption="Sizing anxiety addressed at three points in the journey. Not once."
               aspect="aspect-[16/6]"
             />
@@ -429,7 +429,7 @@ export default function SkooltagCaseStudy() {
             <div className="text-text-muted leading-relaxed space-y-4 text-[0.95rem]">
               <p>
                 Most portfolios show the happy path. The real product is what happens when things do
-                not go perfectly. The post-purchase experience was designed completely —
+                not go perfectly. The post-purchase experience was designed completely -
                 order tracking, item-level replacement, item-level cancellation, and invoice download.
               </p>
               <p className="text-text-primary font-medium">
@@ -439,19 +439,19 @@ export default function SkooltagCaseStudy() {
             </div>
 
             <ImgSlot
-              imageRef="Image 8 — Orders + Tracking"
-              caption="Order status has a color language. Yellow for arriving, green for delivered, red for cancelled. Not arbitrary — systematic."
+              imageRef="Image 8 - Orders + Tracking"
+              caption="Order status has a color language. Yellow for arriving, green for delivered, red for cancelled. Not arbitrary - systematic."
               aspect="aspect-[16/7]"
             />
 
             <ImgSlot
-              imageRef="Image 9 — Replacement Flow"
+              imageRef="Image 9 - Replacement Flow"
               caption="Edge cases designed before they became support tickets. Reason, correction, confirmation."
               aspect="aspect-[16/7]"
             />
 
             <ImgSlot
-              imageRef="Image 10 — Cancellation"
+              imageRef="Image 10 - Cancellation"
               caption="Cancel what's wrong. Keep the rest. Stay in control."
               aspect="aspect-[16/7]"
             />
@@ -471,15 +471,15 @@ export default function SkooltagCaseStudy() {
               {[
                 {
                   title: 'No User Research Budget',
-                  body: 'No formal usability sessions, no paid participants. Design decisions were based on contextual understanding of the Indian parent user — informed by the client\'s 35 years of direct customer relationships.',
+                  body: 'No formal usability sessions, no paid participants. Design decisions were based on contextual understanding of the Indian parent user - informed by the client\'s 35 years of direct customer relationships.',
                 },
                 {
                   title: 'No Design System to Inherit',
-                  body: 'Brand, color language, illustration style, component library, and interaction patterns all created from zero — while a developer was shipping in real time.',
+                  body: 'Brand, color language, illustration style, component library, and interaction patterns all created from zero - while a developer was shipping in real time.',
                 },
                 {
                   title: 'No Product Manager',
-                  body: 'I was coordinating a graphic designer, a motion designer, and a developer — while also designing. Every deliverable required understanding what each discipline needed from it.',
+                  body: 'I was coordinating a graphic designer, a motion designer, and a developer - while also designing. Every deliverable required understanding what each discipline needed from it.',
                 },
               ].map(({ title, body }, i) => (
                 <div key={i} className="border border-border bg-surface p-6">

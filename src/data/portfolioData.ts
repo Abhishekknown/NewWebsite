@@ -53,23 +53,23 @@ export const projects: Project[] = [
   {
     id: "skooltag",
     number: "01",
-    title: "Skooltag — School Uniform Platform",
+    title: "Skooltag - School Uniform Platform",
     location: "Delhi, India · D2C E-Commerce",
     industry: "D2C E-Commerce · EdTech · School Retail",
     tags: ["E-Commerce", "Consumer Mobile", "D2C", "0→1", "Brand Identity"],
-    description: "A Delhi-based school uniform retailer needed a complete product to replace third-party vendor dependency. Designed a 5-step onboarding flow targeting near-zero drop-off, a bundled package feature as the primary acquisition mechanic, and the full brand system — from logo to print collateral.",
+    description: "A Delhi-based school uniform retailer needed a complete product to replace third-party vendor dependency. Designed a 5-step onboarding flow targeting near-zero drop-off, a bundled package feature as the primary acquisition mechanic, and the full brand system - from logo to print collateral.",
     outcome: "→ Live and in use across Delhi schools",
     liveUrl: "https://skooltag.com",
     liveLabel: "skooltag.com",
     client: "Student Junction / Skooltag",
-    role: "Sole Designer — Brand Identity, UX, UI, Marketing Assets",
+    role: "Sole Designer - Brand Identity, UX, UI, Marketing Assets",
     platform: "Mobile-first web + app",
     challenge: {
       heading: "A school uniform retailer with no product, no brand, and a hard deadline.",
-      body: "Delhi schools operate under a local government policy that designates approved school uniform vendors. Student Junction wanted to become one of those approved vendors — and compete with Amazon and local shops by owning the relationship directly with families through a digital-first platform.\n\nThe problem: there was no product. No brand. No flow. Nothing. Just a business case and a category.\n\nThe stakes were real:",
+      body: "Delhi schools operate under a local government policy that designates approved school uniform vendors. Student Junction wanted to become one of those approved vendors - and compete with Amazon and local shops by owning the relationship directly with families through a digital-first platform.\n\nThe problem: there was no product. No brand. No flow. Nothing. Just a business case and a category.\n\nThe stakes were real:",
       blocks: [
         "Market timing: Back-to-school seasons are concentrated. Missing launch meant missing a full year of revenue.",
-        "Trust gap: Families buying school uniforms for their children needed to trust a new brand immediately — before the first purchase.",
+        "Trust gap: Families buying school uniforms for their children needed to trust a new brand immediately - before the first purchase.",
         "Discovery friction: A school uniform catalogue has complexity: multiple schools, classes, genders, and item types. Without smart product architecture, the experience collapses into confusion."
       ],
       businessGoal: "Design a product experience that could drive first-time purchases among Delhi school families, reduce reliance on third-party platforms, and position Skooltag as the preferred official vendor channel."
@@ -81,9 +81,9 @@ export const projects: Project[] = [
       "Build a complete brand system capable of supporting both digital and physical launch materials"
     ],
     constraints: [
-      "Sole designer: No design team. No research ops. Every decision — from logo colour to onboarding copy — started and ended with one person.",
+      "Sole designer: No design team. No research ops. Every decision - from logo colour to onboarding copy - started and ended with one person.",
       "Early-stage startup: Limited runway. Fast iteration expected. No room for extended discovery phases or multiple design sprints.",
-      "Physical + digital in parallel: Print materials (pamphlets, banners, in-school signage) needed to be designed alongside the digital product — not after."
+      "Physical + digital in parallel: Print materials (pamphlets, banners, in-school signage) needed to be designed alongside the digital product - not after."
     ],
     myRole: [
       "Brand identity from scratch (logo, colour system, typography)",
@@ -93,23 +93,23 @@ export const projects: Project[] = [
     ],
     discovery: {
       heading: "Understanding how Delhi school families actually shop.",
-      body: "The uniform catalogue has inherent segmentation logic: school → class → section → gender → item type. Families don't want to browse a generic catalogue — they want to see exactly what their child needs, instantly. Third-party platforms (Amazon, local vendors) offered no personalisation. That was the differentiation lever.",
-      insight: "The product's job in the first 60 seconds was not to sell — it was to prove it knew exactly what this family needed before they had to search for it."
+      body: "The uniform catalogue has inherent segmentation logic: school → class → section → gender → item type. Families don't want to browse a generic catalogue - they want to see exactly what their child needs, instantly. Third-party platforms (Amazon, local vendors) offered no personalisation. That was the differentiation lever.",
+      insight: "The product's job in the first 60 seconds was not to sell - it was to prove it knew exactly what this family needed before they had to search for it."
     },
     strategy: {
       heading: "Three principles. Everything flowed from them.",
       principles: [
         {
           title: "Compress the path to relevance.",
-          body: "Don't show families a catalogue. Take them through a 5-question guided setup that ends with a pre-filtered, personalised product dashboard — showing only what their child actually needs."
+          body: "Don't show families a catalogue. Take them through a 5-question guided setup that ends with a pre-filtered, personalised product dashboard - showing only what their child actually needs."
         },
         {
           title: "Make the bundle the obvious choice.",
-          body: "A 20% discount on complete uniform packages wasn't just a promotion — it was the default framing. Families buying piecemeal should feel like they're doing it the hard way."
+          body: "A 20% discount on complete uniform packages wasn't just a promotion - it was the default framing. Families buying piecemeal should feel like they're doing it the hard way."
         },
         {
           title: "Build a brand that earns trust before the purchase.",
-          body: "The visual identity needed to feel like a school — familiar, structured, clean — but modern enough to compete with digital-first brands."
+          body: "The visual identity needed to feel like a school - familiar, structured, clean - but modern enough to compete with digital-first brands."
         }
       ]
     },
@@ -126,7 +126,7 @@ export const projects: Project[] = [
         },
         {
           title: "Bundle Feature Design",
-          body: "Designed the bundled package as a pinned recommendation at the top of the personalised catalogue — visually distinct, with the 20% saving prominently surfaced."
+          body: "Designed the bundled package as a pinned recommendation at the top of the personalised catalogue - visually distinct, with the 20% saving prominently surfaced."
         },
         {
           title: "Brand Identity",
@@ -143,39 +143,39 @@ export const projects: Project[] = [
       ]
     },
     keyDecisions: {
-      heading: "The calls that mattered most — and why.",
+      heading: "The calls that mattered most - and why.",
       decisions: [
         {
           title: "5-step guided onboarding vs. browsable catalogue",
-          before: "What we could have done: A standard e-commerce catalogue with filters — familiar, low development risk.",
-          after: "What we chose: A guided setup because families in this category don't want to browse — they want to be told what their child needs. The setup removes decision fatigue entirely and delivers a personalised experience instantly."
+          before: "What we could have done: A standard e-commerce catalogue with filters - familiar, low development risk.",
+          after: "What we chose: A guided setup because families in this category don't want to browse - they want to be told what their child needs. The setup removes decision fatigue entirely and delivers a personalised experience instantly."
         },
         {
           title: "Bundle as primary SKU, not an upsell",
           before: "What most platforms do: Treat bundles as an add-on recommendation after the customer has already started building their own cart.",
-          after: "What we chose: Make the bundle the default recommendation — surfaced first, priced clearly, with savings prominently visible. This aligned with the startup's core KPI (average order value per household) rather than individual item sales."
+          after: "What we chose: Make the bundle the default recommendation - surfaced first, priced clearly, with savings prominently visible. This aligned with the startup's core KPI (average order value per household) rather than individual item sales."
         }
       ]
     },
     solution: {
       heading: "What shipped.",
-      body: "The solution was a cohesive product system — not just screens. Every touchpoint, from the digital onboarding flow to the pamphlet a family picks up outside school gates, was designed to work together.",
+      body: "The solution was a cohesive product system - not just screens. Every touchpoint, from the digital onboarding flow to the pamphlet a family picks up outside school gates, was designed to work together.",
       placeholders: [
-        "Onboarding Step 1–5 — Progressive flow",
-        "Personalised catalogue — Post-onboarding dashboard",
-        "Bundle recommendation — Primary acquisition card",
+        "Onboarding Step 1–5 - Progressive flow",
+        "Personalised catalogue - Post-onboarding dashboard",
+        "Bundle recommendation - Primary acquisition card",
         "Product detail page",
-        "Brand identity — Logo, colours, typography",
-        "Print collateral — Pamphlet and banner"
+        "Brand identity - Logo, colours, typography",
+        "Print collateral - Pamphlet and banner"
       ]
     },
     outcomes: {
       heading: "What came out of it.",
       items: [
-        "Product is live: skooltag.com — actively in use across Delhi schools.",
-        "Approved vendor status: Skooltag operates as one of Delhi's officially approved school uniform vendors under local government policy — a key business milestone the product directly enabled.",
-        "5-step onboarding: Designed to deliver a fully personalised catalogue in under 60 seconds — eliminating the browsing overhead that causes drop-off on generic e-commerce platforms.",
-        "Complete brand system: Logo, full visual identity, and go-to-market materials — deployed across both digital and physical channels at launch."
+        "Product is live: skooltag.com - actively in use across Delhi schools.",
+        "Approved vendor status: Skooltag operates as one of Delhi's officially approved school uniform vendors under local government policy - a key business milestone the product directly enabled.",
+        "5-step onboarding: Designed to deliver a fully personalised catalogue in under 60 seconds - eliminating the browsing overhead that causes drop-off on generic e-commerce platforms.",
+        "Complete brand system: Logo, full visual identity, and go-to-market materials - deployed across both digital and physical channels at launch."
       ]
     }
   },
@@ -186,7 +186,7 @@ export const projects: Project[] = [
     location: "Vancouver, BC · B2B Professional Services",
     industry: "B2B Professional Services · Construction · Canada",
     tags: ["B2B Web Platform", "Professional Services", "Canada", "UX + Visual Design"],
-    description: "A Vancouver-based contracting firm needed a web presence that could close B2B leads. Delivered the complete UX, visual design system, and production-ready assets for a professional services platform — built remotely for an international client, live and actively used.",
+    description: "A Vancouver-based contracting firm needed a web presence that could close B2B leads. Delivered the complete UX, visual design system, and production-ready assets for a professional services platform - built remotely for an international client, live and actively used.",
     outcome: "→ Live at stratalite.ca · B2B lead generation platform",
     liveUrl: "https://stratalite.ca",
     liveLabel: "stratalite.ca",
@@ -195,7 +195,7 @@ export const projects: Project[] = [
     platform: "Web",
     challenge: {
       heading: "A Vancouver-based contracting firm needed a web presence that could close B2B leads.",
-      body: "Pacific Coast Contracting is a professional services business operating in Vancouver's contracting market. B2B contracting is a trust-intensive category — clients are making significant financial commitments and need to feel confident before they even make contact.\n\nThe problem:\n- No web presence that matched the company's actual calibre of work\n- Potential leads arriving at an experience that undersold the brand\n- No design system — every asset created from scratch with no standards",
+      body: "Pacific Coast Contracting is a professional services business operating in Vancouver's contracting market. B2B contracting is a trust-intensive category - clients are making significant financial commitments and need to feel confident before they even make contact.\n\nThe problem:\n- No web presence that matched the company's actual calibre of work\n- Potential leads arriving at an experience that undersold the brand\n- No design system - every asset created from scratch with no standards",
       blocks: [
         "Credibility gap: The existing digital presence (or lack thereof) didn't reflect the quality of their physical work.",
         "Lead friction: Prospects had no clear path to understanding services or initiating contact.",
@@ -214,13 +214,13 @@ export const projects: Project[] = [
       "Lead-gen focus: Every page must serve the ultimate goal of conversion to contact."
     ],
     myRole: [
-      "Complete UX — site structure, page hierarchy, user flows",
-      "Visual design system — typography, color, component standards",
+      "Complete UX - site structure, page hierarchy, user flows",
+      "Visual design system - typography, color, component standards",
       "Production-ready design assets for dev handoff"
     ],
     discovery: {
       heading: "Understanding the Vancouver B2B contracting market.",
-      body: "B2B professional services requires a different conversion logic than consumer products — trust-building precedes contact, not the other way around. Contracting firms typically win leads through referral networks; a website's job is to validate, not generate cold traffic.",
+      body: "B2B professional services requires a different conversion logic than consumer products - trust-building precedes contact, not the other way around. Contracting firms typically win leads through referral networks; a website's job is to validate, not generate cold traffic.",
       insight: "A visual design that reads as polished, intentional, and premium creates instant differentiation in a category where most competitors look like 2009 WordPress sites."
     },
     strategy: {
@@ -232,7 +232,7 @@ export const projects: Project[] = [
         },
         {
           title: "Make the services page do selling work.",
-          body: "A services section shouldn't just list what PCC does — it should help a prospect self-identify their need and see PCC as the obvious answer."
+          body: "A services section shouldn't just list what PCC does - it should help a prospect self-identify their need and see PCC as the obvious answer."
         },
         {
           title: "Remove contact friction entirely.",
@@ -252,7 +252,7 @@ export const projects: Project[] = [
       ]
     },
     keyDecisions: {
-      heading: "The calls that mattered most — and why.",
+      heading: "The calls that mattered most - and why.",
       decisions: [
         {
           title: "Premium visual language vs. standard industry look",
@@ -265,16 +265,16 @@ export const projects: Project[] = [
       heading: "What shipped.",
       body: "A complete, professional web presence that positions Stratalite as a leader in the Vancouver contracting market.",
       placeholders: [
-        "Homepage — Credibility and lead-gen focus",
-        "Services overview — Self-identification logic",
-        "Project gallery — Proof of work",
-        "Contact flow — Frictionless lead capture"
+        "Homepage - Credibility and lead-gen focus",
+        "Services overview - Self-identification logic",
+        "Project gallery - Proof of work",
+        "Contact flow - Frictionless lead capture"
       ]
     },
     outcomes: {
       heading: "What came out of it.",
       items: [
-        "Product is live: stratalite.ca — actively used by the client.",
+        "Product is live: stratalite.ca - actively used by the client.",
         "Full visual design system: Delivered and handed off for future scaling.",
         "Production-ready assets: Used directly in the live product launch."
       ]
@@ -283,11 +283,11 @@ export const projects: Project[] = [
   {
     id: "manbal",
     number: "03",
-    title: "Manbal.ai — Campus Connect App",
+    title: "Manbal.ai - Campus Connect App",
     location: "Early-stage AI Startup · India",
     industry: "Consumer Mobile · EdTech · Campus Networking",
     tags: ["Consumer Mobile", "EdTech", "Campus Networking", "0→1"],
-    description: "Designed end-to-end UX for a skill-based campus networking app — onboarding, peer discovery, and alumni access flows — for an early-stage AI startup targeting verified university communities. Zero to production-ready screens. No template. No handoffs from another designer.",
+    description: "Designed end-to-end UX for a skill-based campus networking app - onboarding, peer discovery, and alumni access flows - for an early-stage AI startup targeting verified university communities. Zero to production-ready screens. No template. No handoffs from another designer.",
     outcome: "→ 0→1 product · Designed from blank canvas to production screens",
     liveUrl: "https://manbal.ai",
     liveLabel: "Manbal.ai",
@@ -296,7 +296,7 @@ export const projects: Project[] = [
     platform: "Mobile app (iOS/Android)",
     challenge: {
       heading: "Building a community product and need UX from zero?",
-      body: "University students have a problem that LinkedIn doesn't solve: they want to connect with peers on their own campus — by skill set, interest, or project need — within a trusted, closed community.\n\nManbal.ai was built to solve this. A gated campus networking app, accessible only to verified university members, modelled on a Slack-style closed cluster with a skill-discovery layer.",
+      body: "University students have a problem that LinkedIn doesn't solve: they want to connect with peers on their own campus - by skill set, interest, or project need - within a trusted, closed community.\n\nManbal.ai was built to solve this. A gated campus networking app, accessible only to verified university members, modelled on a Slack-style closed cluster with a skill-discovery layer.",
       blocks: [
         "New category: No direct competitor to model after.",
         "Verification friction: Onboarding had to verify university membership without killing completion rates.",
@@ -307,7 +307,7 @@ export const projects: Project[] = [
     goals: [
       "Design an onboarding flow that verified campus membership without excessive friction",
       "Create a skill-based profile system that made peer discovery genuinely useful",
-      "Build the full campus cluster experience — peer discovery, direct connection, alumni access",
+      "Build the full campus cluster experience - peer discovery, direct connection, alumni access",
       "Take the product from zero to production-ready screens"
     ],
     constraints: [
@@ -323,7 +323,7 @@ export const projects: Project[] = [
     ],
     discovery: {
       heading: "Understanding how students actually connect on campus.",
-      body: "Student persona research informed the flow design. The product targeted verified university students — campus-specific trust was a core feature, not just a design detail. Alumni access was a distinct user type with a different value proposition.",
+      body: "Student persona research informed the flow design. The product targeted verified university students - campus-specific trust was a core feature, not just a design detail. Alumni access was a distinct user type with a different value proposition.",
       insight: "Students value skill-based discovery over generic networking; they want to find 'the person who knows React' on their campus, not just 'a student'."
     },
     strategy: {
@@ -355,7 +355,7 @@ export const projects: Project[] = [
       ]
     },
     keyDecisions: {
-      heading: "The calls that mattered most — and why.",
+      heading: "The calls that mattered most - and why.",
       decisions: [
         {
           title: "Skill-based vs. Department-based discovery",
@@ -389,12 +389,12 @@ export const services = [
   {
     number: "01",
     title: "Product Design (0→1)",
-    body: "Taking products from concept to production-ready. User flows, information architecture, wireframes, UI, and design system — all coordinated with your engineering team."
+    body: "Taking products from concept to production-ready. User flows, information architecture, wireframes, UI, and design system - all coordinated with your engineering team."
   },
   {
     number: "02",
     title: "UX Audit & Flow Repair",
-    body: "Something in your product is leaking users. I'll diagnose what's broken in your onboarding, dashboard, or conversion flow — and redesign it with business outcomes in mind."
+    body: "Something in your product is leaking users. I'll diagnose what's broken in your onboarding, dashboard, or conversion flow - and redesign it with business outcomes in mind."
   },
   {
     number: "03",
@@ -409,7 +409,7 @@ export const services = [
   {
     number: "05",
     title: "Brand Identity for New Products",
-    body: "Logo, visual system, and go-to-market design assets — built to support launch, not just look good in a deck."
+    body: "Logo, visual system, and go-to-market design assets - built to support launch, not just look good in a deck."
   }
 ];
 
@@ -437,7 +437,7 @@ export const processSteps = [
   {
     number: "05",
     title: "Dev Collaboration & Handoff",
-    body: "I work directly with your developers. Component libraries, redlines, Figma specs — and I stay in the loop during implementation to protect design intent."
+    body: "I work directly with your developers. Component libraries, redlines, Figma specs - and I stay in the loop during implementation to protect design intent."
   },
   {
     number: "06",
@@ -448,14 +448,14 @@ export const processSteps = [
 
 export const testimonials = [
   {
-    quote: "Abhishek didn't just design Skooltag — he helped us think through the product. He asked questions about our users and business model before touching Figma, and what came out the other end was something we could actually build and ship.",
+    quote: "Abhishek didn't just design Skooltag - he helped us think through the product. He asked questions about our users and business model before touching Figma, and what came out the other end was something we could actually build and ship.",
     author: "Shivam Yadav",
     role: "Co-Founder, Skooltag",
     logo: "https://www.skooltag.com/images/skooltag-logo.png",
     logoAlt: "Skooltag"
   },
   {
-    quote: "The handoff process was unlike anything I've seen before. Abhishek understood our stack, flagged constraints early, and stayed involved through development. Zero back-and-forth on implementation — it just worked.",
+    quote: "The handoff process was unlike anything I've seen before. Abhishek understood our stack, flagged constraints early, and stayed involved through development. Zero back-and-forth on implementation - it just worked.",
     author: "Satyam",
     role: "Founder, Manbal.ai",
     logo: "https://manbal.ai/logo.svg",
@@ -473,7 +473,7 @@ export const testimonials = [
 export const faqs = [
   {
     question: "Do you work with early-stage startups?",
-    answer: "Yes — two of my three live products were 0→1 builds at early-stage startups. I'm comfortable with ambiguity, limited resources, and the pressure to ship fast."
+    answer: "Yes - two of my three live products were 0→1 builds at early-stage startups. I'm comfortable with ambiguity, limited resources, and the pressure to ship fast."
   },
   {
     question: "Can you work directly with developers?",
@@ -481,18 +481,18 @@ export const faqs = [
   },
   {
     question: "Do you do research, or just design?",
-    answer: "Both. For redesigns, I start with a diagnostic phase — reviewing analytics, auditing the existing flow, and identifying where users are losing confidence. Design without diagnosis is just guessing."
+    answer: "Both. For redesigns, I start with a diagnostic phase - reviewing analytics, auditing the existing flow, and identifying where users are losing confidence. Design without diagnosis is just guessing."
   },
   {
     question: "What if we only need one specific flow redesigned?",
-    answer: "That works. A lot of my engagements are focused — onboarding repair, dashboard restructure, or a conversion-critical page. We don't need to redesign the whole product to fix the part that's broken."
+    answer: "That works. A lot of my engagements are focused - onboarding repair, dashboard restructure, or a conversion-critical page. We don't need to redesign the whole product to fix the part that's broken."
   },
   {
     question: "Are you available for full-time PM roles?",
-    answer: "Yes — I'm actively exploring design-led PM roles at product-first companies. If that's relevant to you, let's talk."
+    answer: "Yes - I'm actively exploring design-led PM roles at product-first companies. If that's relevant to you, let's talk."
   },
   {
     question: "What does your design handoff process look like?",
-    answer: "Figma component libraries, annotated specs, and documented interaction patterns. I stay available during development to answer questions and review what's being built — not just hand over files and disappear."
+    answer: "Figma component libraries, annotated specs, and documented interaction patterns. I stay available during development to answer questions and review what's being built - not just hand over files and disappear."
   }
 ];

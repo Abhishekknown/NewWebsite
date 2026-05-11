@@ -65,7 +65,7 @@ function Hero() {
             {/* Subheading */}
             <p className="text-sm md:text-lg lg:text-xl leading-relaxed tracking-tight text-text-muted max-w-2xl text-center">
               Design-led product thinking for founders who need more than good-looking screens.
-              I've taken products from zero to live — defining flows, scoping features, and collaborating with developers.
+              I've taken products from zero to live - defining flows, scoping features, and collaborating with developers.
             </p>
           </div>
 
