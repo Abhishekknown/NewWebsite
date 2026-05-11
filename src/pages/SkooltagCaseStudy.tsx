@@ -114,11 +114,16 @@ export default function SkooltagCaseStudy() {
             ))}
           </div>
 
-          <ImgSlot
-            imageRef="Image 2 - Hero / Home Screen"
-            caption="Home screen - bold tile variant. The parent's package, pre-built, waiting."
-            aspect="aspect-video"
-          />
+          <figure className="mt-12">
+            <img
+              src="/images/skooltag-home-screen.png"
+              alt="SkoolTag home screen - bold tile variant showing pre-built school package"
+              className="w-full border border-border object-cover"
+            />
+            <figcaption className="text-text-faint text-[0.72rem] italic text-center mt-3">
+              Home screen - bold tile variant. The parent's package, pre-built, waiting.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
