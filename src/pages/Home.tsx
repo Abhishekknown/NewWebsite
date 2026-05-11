@@ -171,7 +171,7 @@ export default function Home() {
                         src={t.logo}
                         alt={t.logoAlt}
                         className="w-9 h-9 object-contain rounded"
-                        onError={(e: React.SyntheticEvent<HTMLImageElement>) => { e.currentTarget.style.display = 'none'; }}
+                        onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
                       />
                       <div>
                         <div className="text-text-primary text-[0.9rem] font-semibold">{t.author}</div>
